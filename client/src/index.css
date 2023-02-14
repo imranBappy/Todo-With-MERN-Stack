@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply text-white px-4 py-4 bg-sky-700 text-xl font-semibold font-serif mb-3 rounded shadow-xl;
+  }
+  .todo {
+    @apply text-white bg-sky-900 font-sans text-lg font-semibold px-4 py-3 mb-2;
+  }
+  .main-title {
+    @apply font-serif text-3xl text-center font-semibold text-white bg-cyan-900 py-3;
+  }
+}
